@@ -1,0 +1,86 @@
+ 1#Use the Database
+
+USE institute_db;
+🔹 Step 2: Create users Table
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+🔹 Step 4: Create courses Table
+
+
+CREATE TABLE courses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(150) NOT NULL,
+    description TEXT,
+    image VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+3#Paste and run this SQL to create the missing table:
+
+CREATE TABLE enrollments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    course VARCHAR(50) NOT NULL,
+    enrolled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+4#Credit Card Table
+
+CREATE TABLE credit_card (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    card_number VARCHAR(20),
+    expiration_date DATE,
+    cvv VARCHAR(5),
+    card_holder_name VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+2. Debit Card Table
+
+CREATE TABLE debit_card (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    card_number VARCHAR(20),
+    expiration_date DATE,
+    cvv VARCHAR(5),
+    card_holder_name VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+4. Internet Banking Table
+
+CREATE TABLE internet_banking (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id VARCHAR(50),
+    password VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+5. Wallet / Cash Card Table
+
+CREATE TABLE wallet (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    card_number VARCHAR(20),
+    pin VARCHAR(10),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+6. IMPS Table
+
+CREATE TABLE imps (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    mobile_number VARCHAR(15),
+    mmid VARCHAR(15),
+    amount DECIMAL(10, 2),
+    remarks VARCHAR(255),
+    transaction_password VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
