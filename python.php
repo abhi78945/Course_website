@@ -34,7 +34,7 @@
         <p>Duration: 8 hours 25 minutes 9 seconds</p>
         
         <!-- Add more details as needed -->
-        <a href="#" class="btn enroll-btn">Enroll Now</a>
+        <a href="enroll.php" class="btn enroll-btn">Enroll Now</a>
     </section>
 
 

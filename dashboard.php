@@ -134,7 +134,7 @@ $courses = mysqli_query($conn, "SELECT * FROM courses");
                     </a>
                 </div>
                 <div class="content">
-                    <a href="data_science_course.php">
+                    <a href="frontend.php">
                         <h4>$49.99</h4>
                         <p>updated 25/09/2021</p>
                         <h3>frontend development</h3>
@@ -191,13 +191,13 @@ $courses = mysqli_query($conn, "SELECT * FROM courses");
 
             <div class="box">
                 <div class="image shine">
-                    <a href="machine_learning.html">
+                    <a href="machine_learning.php">
                         <img src="images/course-3.jpg" alt="">
                         <h3>basic</h3>
                     </a>
                 </div>
                 <div class="content">
-                    <a href="machine_learning.html">
+                    <a href="machine_learning.php">
                         <h4>$49.99</h4>
                         <p>updated 5/04/2021</p>
                         <h3>Machine Learning</h3>
@@ -219,13 +219,13 @@ $courses = mysqli_query($conn, "SELECT * FROM courses");
 
             <div class="box">
                 <div class="image shine">
-                    <a href="python.html">
+                    <a href="python.php">
                         <img src="images/course-4.png" alt="">
                         <h3>basic</h3>
                     </a>
                 </div>
                 <div class="content">
-                    <a href="python.html">
+                    <a href="python.php">
                         <h4>$49.99</h4>
                         <p>updated 25/09/2021</p>
                         <h3>Python Programming</h3>
@@ -247,13 +247,13 @@ $courses = mysqli_query($conn, "SELECT * FROM courses");
 
             <div class="box">
                 <div class="image shine">
-                    <a href="java.html">
+                    <a href="java.php">
                         <img src="images/course-5.png" alt="">
                         <h3>basic</h3>
                     </a>
                 </div>
                 <div class="content">
-                    <a href="java.html">
+                    <a href="java.php">
                         <h4>$49.99</h4>
                         <p>updated 25/09/2021</p>
                         <h3>Java Programming</h3>
@@ -275,13 +275,13 @@ $courses = mysqli_query($conn, "SELECT * FROM courses");
 
             <div class="box">
                 <div class="image shine">
-                    <a href="cs.html">
+                    <a href="cs.php">
                         <img src="images/course-6.png" alt="">
                         <h3>basic</h3>
                     </a>
                 </div>
                 <div class="content">
-                    <a href="cs.html">
+                    <a href="cs.php">
                         <h4>$49.99</h4>
                         <p>updated 25/09/2021</p>
                         <h3>Cyber Security</h3>

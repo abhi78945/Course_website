@@ -34,7 +34,7 @@
         
         
         <!-- Add more details as needed -->
-        <a href="#" class="btn enroll-btn">Enroll Now</a>
+        <a href="enroll.php" class="btn enroll-btn">Enroll Now</a>
     </section>
     <style>
         /* CSS styles */

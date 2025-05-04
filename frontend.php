@@ -29,7 +29,7 @@
 <body>
     <!-- Course details section -->
     <section class="course-details">
-        <h1>Data Science Course</h1>
+        <h1>Frontend Devloper</h1>
         <p>Data science covers various aspects of data analysis, interpretation, and application. </p>
         
         <!-- Add more details as needed -->
